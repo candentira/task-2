@@ -23,11 +23,11 @@
             }
           }
         }
-        count = connect(mapCopy, N, M);
+        count = connect(mapCopy, M);
         return count;
     }
 
-    function connect(mapCopy, N, M){
+    function connect(mapCopy, M){
       for(var k = 0; k < mapCopy.length; k++) {
           if(mapCopy[k]) {
             var kinext = k + M;
